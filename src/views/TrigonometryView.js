@@ -20,6 +20,9 @@ export default function TrigonometryView() {
   return (
     <Grid container spacing={3}>
       <Grid item xs={12} sm={12}>
+        <img src={process.env.PUBLIC_URL + '/img/img_trig_4.jpg'} style={{width: '100%'}} />
+      </Grid>
+      <Grid item xs={12} sm={12}>
         <Grid container spacing={2}>
           <Grid item xs={2}>
             <Typography gutterBottom>

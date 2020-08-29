@@ -8,6 +8,7 @@ import TabPanel from './components/TabPanel';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import TrigonometryView from './views/TrigonometryView';
+import SquareView from './views/SquareView';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -54,7 +55,7 @@ function App() {
           <TrigonometryView/>
         </TabPanel>
         <TabPanel value={value} index={2}>
-          Кв. уравнения
+          <SquareView/>
         </TabPanel>
       </Container>
     </div>
